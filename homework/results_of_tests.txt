@@ -1,0 +1,126 @@
+S B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests> pytest test_task_1.py
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests
+plugins: asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 3 items                                                                                                                                         
+
+test_task_1.py ...                                                                                                                                 [100%]
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests> pytest test_task_2.py
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests
+plugins: asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+test_task_2.py .                                                                                                                                   [100%] 
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests> pytest test_task_3.py 
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 3 items
+
+test_task_3.py ...                                                                                                                                 [100%]
+
+================================================================== 3 passed in 12.44s =================================================================== 
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests> pytest .\test_task_4_with_global.py
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+test_task_4_with_global.py .                                                                                                                       [100%] 
+
+=================================================================== 1 passed in 0.21s ===================================================================
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests> pytest .\test_task_4.py
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+test_task_4.py .                                                                                                                                   [100%] 
+
+=================================================================== 1 passed in 0.19s ===================================================================
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests> pytest .\test_task_5.py
+================================================================== test session starts ==================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async\homework\tests
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 2 items
+
+test_task_5.py ..                                                                                                                                  [100%]
+
+=================================================================== 2 passed in 9.93s ===================================================================
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async> pytest homework\tests\test_task_6.py
+================================================================= test session starts =================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+homework\tests\test_task_6.py .                                                                                                                  [100%] 
+
+================================================================== 1 passed in 0.27s ==================================================================
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async> pytest homework\tests\test_task_7_version1.py
+================================================================= test session starts =================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+homework\tests\test_task_7_version1.py .                                                                                                         [100%]
+
+================================================================== 1 passed in 4.75s ==================================================================
+
+
+
+
+
+PS B:\Avito\Python\python_advanced\aaa_python_advanced_async> pytest homework\tests\test_task_7_version2.py
+================================================================= test session starts =================================================================
+platform win32 -- Python 3.11.5, pytest-7.4.3, pluggy-1.3.0
+rootdir: B:\Avito\Python\python_advanced\aaa_python_advanced_async
+plugins: hypothesis-6.92.2, asyncio-0.23.2, cov-4.1.0, mock-3.12.0
+asyncio: mode=Mode.STRICT
+collected 1 item
+
+homework\tests\test_task_7_version2.py .                                                                                                         [100%]
+
+================================================================== 1 passed in 4.56s ==================================================================

@@ -6,7 +6,7 @@ import numpy as np
 import pytest
 from sklearn.cluster import KMeans
 
-from homework.tasks.task_7 import AbstractModel, Handler
+from homework.tasks.task_7_version1 import AbstractModel, Handler
 
 
 class ClusteringModel(AbstractModel):
