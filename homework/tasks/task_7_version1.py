@@ -20,16 +20,4 @@ class Handler:
         # не слишком сильно отличается от времени исполнения нескольких таких
         # корутин, запущенных конкурентно.
 
-        # Получение текущего цикла событий (event loop) для текущего потока
-        # loop = asyncio.get_event_loop()
-
-        # Запуск синхронной функции self._model.compute в отдельном
-        # потоке с помощью run_in_executor. Здесь None 1м аргументом означает
-        # использование дефолтного ThreadPoolExecutor
-        # task = loop.run_in_executor(None, self._model.compute)
-        # run_in_executor возвращает объект asyncio.Future,
-        # который затем можно ожидать в асинхронном коде
-
-        # Ожидание завершения задачи
-        # await task
         await asyncio.to_thread(self._model.compute)
